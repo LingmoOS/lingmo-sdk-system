@@ -1,0 +1,6 @@
+Name: lingmo-sdk-hardware
+Description: kysdk system layer hardware component
+Requires: kysdk-log kysdk-config libsystemd libudev
+Version: 2.0.0
+Libs: -L/usr/lib/kysdk/kysdk-system/ -L/usr/lib/kysdk/kysdk-base -lkyhw -lkybluetooth -lkyedid -lkyfan -lkyhwinfo -Wl,-rpath=/usr/lib/kysdk/kysdk-system/
+Cflags: -I/usr/include/kysdk/kysdk-system/

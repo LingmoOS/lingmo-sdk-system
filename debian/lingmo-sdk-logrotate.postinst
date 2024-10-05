@@ -1,0 +1,5 @@
+#!/bin/bash
+
+systemctl enable kysdk-logrotate.service
+systemctl restart kysdk-logrotate.service
+crontab /usr/lib/kysdk/kysdk-system/logrotate.cron

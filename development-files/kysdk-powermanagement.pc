@@ -1,0 +1,6 @@
+Name: lingmo-sdk-powermanagement
+Description: kysdk system layer powermanagement component
+Requires: kysdk-log
+Version: 2.0.0
+Libs: -L/usr/lib/kysdk/kysdk-system/ -L/usr/lib/kysdk/kysdk-base -lkypowermanagement -Wl,-rpath=/usr/lib/kysdk/kysdk-system/
+Cflags: -I/usr/include/kysdk/kysdk-system/

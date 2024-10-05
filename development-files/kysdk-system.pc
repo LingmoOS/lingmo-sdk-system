@@ -1,0 +1,6 @@
+Name: lingmo-sdk-system
+Description: kysdk system layer
+Requires: kysdk-disk kysdk-filesystem kysdk-hardware kysdk-package kysdk-proc kysdk-sysinfo kysdk-location kysdk-net kysdk-realtime
+Version: 2.0.0
+Libs: -L/usr/lib/kysdk/kysdk-system/ -L/usr/lib/kysdk/kysdk-base -lkydiskinfo -lkyfilewatcher -lkyhw -lkypackage -lkysysinfo -lkyrtinfo -lkylocation -lkynetinfo -lkyrealtime -lkybluetooth -lkyedid -lkyfan -lkyhwinfo -Wl,-rpath=/usr/lib/kysdk/kysdk-system/
+Cflags: -I/usr/include/kysdk/kysdk-system/

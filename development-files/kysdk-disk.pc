@@ -1,0 +1,6 @@
+Name: lingmo-sdk-disk
+Description: kysdk system layer disk component
+Requires: kysdk-log kysdk-utils libudev blkid
+Version: 2.0.0
+Libs: -L/usr/lib/kysdk/kysdk-system/ -L/usr/lib/kysdk/kysdk-base -lkydiskinfo -Wl,-rpath=/usr/lib/kysdk/kysdk-system/
+Cflags: -I/usr/include/kysdk/kysdk-system/

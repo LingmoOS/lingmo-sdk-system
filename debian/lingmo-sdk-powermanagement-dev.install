@@ -1,0 +1,2 @@
+src/powermanagement/libkylockscreen.h usr/include/kysdk/kysdk-system/
+development-files/kysdk-powermanagement.pc usr/share/pkgconfig/

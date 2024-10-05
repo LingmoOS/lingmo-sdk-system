@@ -1,0 +1,5 @@
+Name: lingmo-sdk-proc
+Description: kysdk system layer process component
+Version: 2.0.0
+Libs: -L/usr/lib/kysdk/kysdk-system/ -L/usr/lib/kysdk/kysdk-base -lkyrtinfo -Wl,-rpath=/usr/lib/kysdk/kysdk-system/
+Cflags: -I/usr/include/kysdk/kysdk-system/

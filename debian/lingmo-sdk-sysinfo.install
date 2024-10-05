@@ -1,0 +1,4 @@
+usr/lib/kysdk/kysdk-system/libkysysinfo.so*
+po/kysdk-sysinfo_mn.mo usr/share/locale/mn/LC_MESSAGES/
+po/kysdk-sysinfo_zh_CN.mo usr/share/locale/zh_CN/LC_MESSAGES/
+po/kysdk-sysinfo_bo_CN.mo usr/share/locale/bo_CN/LC_MESSAGES/
